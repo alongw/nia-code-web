@@ -15,6 +15,16 @@ const router = createRouter({
           component: () => import('@/pages/Encode/ShowEncode.vue')
         }
       ]
+    },
+    {
+      path: '/code',
+      name: 'code',
+      component: () => import('@/pages/Code/Code.vue')
+    },
+    {
+      path: '/about',
+      name: 'about',
+      component: () => import('@/pages/About/About.vue')
     }
   ]
 })

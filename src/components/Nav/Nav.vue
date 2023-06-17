@@ -19,8 +19,8 @@ const handleSelect = (key: string, keyPath: string[]) => {
     <el-menu-item>Nia-Code</el-menu-item>
     <div class="flex-grow" />
     <el-menu-item index="/">Home</el-menu-item>
-    <el-menu-item index="code">Code</el-menu-item>
-    <el-menu-item index="about">About</el-menu-item>
+    <el-menu-item index="/code">Code</el-menu-item>
+    <el-menu-item index="/about">About</el-menu-item>
   </el-menu>
 </template>
 <style lang="less" scoped>
