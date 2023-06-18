@@ -29,7 +29,7 @@ const decodebtn = async () => {
 // 复制密文到剪切板
 const handleCopy = async () => {
   try {
-    await navigator.clipboard.writeText(encodeipt.value)
+    await navigator.clipboard.writeText(recall.value)
     ElMessage({
       message: '密文已复制到剪切板~',
       type: 'success'
